@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     
  opacity:1 !important;
@@ -5,6 +6,16 @@
     
 }
  
+=======
+
+* {
+    
+     opacity:1 !important;
+     z-index: 1 !important;  
+     font-size: 1em;
+      
+}
+>>>>>>> origin
 
 .background {
     background-color: transparent !important;
@@ -53,30 +64,53 @@
 }
 
 
+<<<<<<< HEAD
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
     *{
         .89em !important;
+=======
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    *{
+        font-size:.99998em !important;
+>>>>>>> origin
     }
 }
 
 /* Extra Small Devices, Phones */ 
+<<<<<<< HEAD
 @media only screen and (min-width : 480px) {
     *{
         .89em !important;
+=======
+@media only screen and (max-width : 480px) {
+    *{
+        font-size: .9999999998em !important;
+>>>>>>> origin
     }
 }
 
 /* Small Devices, Tablets */
+<<<<<<< HEAD
 @media only screen and (min-width : 768px) {
     *{
         .99999999999999em !important;
+=======
+@media only screen and (max-width : 768px) {
+*{
+        font-size: .999999999999998em !important;
+>>>>>>> origin
     }
 }
 
 /* Medium Devices, Desktops */
+<<<<<<< HEAD
 @media only screen and (min-width : 992px) {
     *{
         .99999999999999em !important;
@@ -125,4 +159,15 @@
 *{
         .89em !important;
     }
+=======
+@media only screen and (max-width : 992px) {
+*{
+        font-size: .999999999999999999999999em !important;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+>>>>>>> origin
 }
